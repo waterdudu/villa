@@ -18,13 +18,10 @@ func readLines(input string) ([]string, error) {
 	slice := []string{}
 
 	for scanner.Scan() {
-		// fmt.Println(scanner.Text())
 		slice = append(slice, scanner.Text())
 	}
 
 	if err := scanner.Err(); err != nil {
-		// log.Fatal(err)
-		fmt.Println("scanner Err : ", err)
 		return nil, err
 	}
 
