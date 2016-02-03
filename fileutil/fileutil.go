@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func readLines(input string) ([]string, error) {
+func ReadLines(input string) ([]string, error) {
 	inFile, err := os.Open(input)
 	if err != nil {
 		return nil, err
