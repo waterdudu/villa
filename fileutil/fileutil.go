@@ -7,7 +7,7 @@ import (
 )
 
 func readLines(input string) ([]string, error) {
-	inFile, err := os.Open(urlFile)
+	inFile, err := os.Open(input)
 	if err != nil {
 		return nil, err
 	}
