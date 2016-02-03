@@ -1,7 +1,9 @@
 package file
 
 import (
+	"bufio"
 	"log"
+	"os"
 )
 
 func readLines(input string) ([]string, error) {
