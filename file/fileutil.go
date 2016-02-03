@@ -2,7 +2,6 @@ package file
 
 import (
 	"bufio"
-	"log"
 	"os"
 )
 
